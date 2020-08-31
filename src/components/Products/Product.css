@@ -1,0 +1,26 @@
+.product{
+    display: flex;   
+    border-bottom: 1px solid lightgray;
+    margin: 10px;
+    padding: 5px;
+}
+.product-name{
+    color: blue;
+    font-size: 20px;
+    font-weight: 400;
+}
+.product-details{
+    padding-left: 20px;
+}
+.buy-button{
+    background-color: rgb(248, 210, 112);
+    height: 30px;
+    width: 180px;
+    border: 1px solid rgb(136, 112, 112);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buy-button:hover{
+    background-color: rgb(248, 181, 12);
+    box-shadow: 5px 5px rgb(204, 192, 182);
+}
